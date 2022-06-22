@@ -1,0 +1,10 @@
+DROP TABLE Clients;
+DROP TABLE Emppos;
+DROP TABLE Employees;
+DROP TABLE Involvedemployees;
+DROP TABLE Involvedtasks;
+DROP TABLE Orders;
+DROP TABLE Positions;
+DROP TABLE Services;
+DROP TABLE Servicesprovided;
+DROP TABLE Tasks;

@@ -8,7 +8,7 @@ CREATE TABLE Emppos (
     id INTEGER,
     position_id INTEGER,
     employees_id INTEGER,
-    "date" DATE,
+    promotiondate DATE,
     PRIMARY KEY (id),
     FOREIGN KEY (position_id) REFERENCES Positions(ID),
     FOREIGN KEY (employees_id) REFERENCES Involvedemployees(ID)
@@ -41,7 +41,7 @@ CREATE TABLE Involvedtasks (
 
 CREATE TABLE Orders (
     id INTEGER,
-    "Date" TIMESTAMP,
+    orderdate TIMESTAMP,
     address VARCHAR2(100),
     client_id INTEGER,
     PRIMARY KEY (id),
@@ -78,4 +78,3 @@ CREATE TABLE Tasks (
     PRIMARY KEY (id)
 );
 
-DROP TABLE Involvedemployees;
